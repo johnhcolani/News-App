@@ -57,41 +57,41 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     // Splash Api
-    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation(libs.androidx.core.splashscreen)
     // Compose Navigation
-    implementation("androidx.navigation:navigation-compose:2.7.4")
+    implementation(libs.androidx.navigation.compose)
     //Dagger Hilt
-    implementation("com.google.dagger:hilt-android:2.50")
-    annotationProcessor("com.google.dagger:hilt-android-compiler:2.50")
+    implementation(libs.hilt.android)
+    annotationProcessor(libs.hilt.android.compiler)
 
     // Optional: Hilt support for ViewModel
-    implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
-    annotationProcessor("androidx.hilt:hilt-compiler:1.0.0")
+    implementation(libs.androidx.hilt.lifecycle.viewmodel)
+    annotationProcessor(libs.androidx.hilt.compiler)
 
     // Optional: Hilt navigation compose support
-    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+    implementation(libs.androidx.hilt.navigation.compose)
     // Retrofit
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-    implementation("com.squareup.okhttp3:okhttp:4.11.0")
-    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
     //coil
-    implementation("io.coil-kt:coil:2.4.0")
-    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation(libs.coil)
+    implementation(libs.coil.compose)
     //Datastore
-    implementation("androidx.datastore:datastore-preferences:1.1.0-alpha04")
-    implementation("androidx.datastore:datastore:1.1.0-alpha04")
+    implementation(libs.androidx.datastore.preferences)
+    implementation(libs.androidx.datastore)
 
     //Accompanist
-    implementation("com.google.accompanist:accompanist-systemuicontroller:0.31.2-alpha")
+    implementation(libs.accompanist.systemuicontroller)
 
     // Paging 3
-    implementation("androidx.paging:paging-runtime:3.2.0")
-    implementation("androidx.paging:paging-compose:3.2.0")
+    implementation(libs.androidx.paging.runtime)
+    implementation(libs.androidx.paging.compose)
 
     // room
-    implementation("androidx.room:room-runtime:2.5.2")
-    annotationProcessor("androidx.room:room-compiler:2.5.2")
-    implementation("androidx.room:room-ktx:2.5.2")
+    implementation(libs.androidx.room.runtime)
+    annotationProcessor(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
 
 }

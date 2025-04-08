@@ -10,7 +10,6 @@ import androidx.datastore.preferences.preferencesDataStore
 import com.johncolani.newsapp.domain.manager.LocalUserManager
 import com.johncolani.newsapp.util.Constants
 import com.johncolani.newsapp.util.Constants.USER_SETTINGS
-import dagger.hilt.android.internal.Contexts
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
